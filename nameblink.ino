@@ -10,9 +10,9 @@ pinMode(led1, OUTPUT);
 
 void loop() {
     
-/* To make the LED blink in morse code I will be using a one second delay for letters that require
-a long pause and a half second delay for the short pause in a letter's morse code then in between
-each letter I will place a 2 second delay to help with see the LED blinking the letters in morse code
+/* To make the LED blink in morse code I will be using a 500ms delay for letters that require
+a long pause and a 100ms delay for the short pause in a letter's morse code then in between
+each letter I will place a 1 second delay to help with see the LED blinking the letters in morse code
 */
 
 // Firstly the first letter in my name is a T, which only requires a long pause so the delay will be 1 second
@@ -29,7 +29,7 @@ delay(1000);
 
 digitalWrite(led1, HIGH);
 
-delay(250);
+delay(100);
 
 digitalWrite(led1, HIGH);
 
@@ -37,7 +37,7 @@ delay(500);
 
 digitalWrite(led1, HIGH);
 
-delay(250);
+delay(100);
 
 digitalWrite(led1, LOW);
 
@@ -47,7 +47,7 @@ delay(1000);
 
 digitalWrite(led1, HIGH);
 
-delay (250);
+delay (100);
 
 digitalWrite(led1, HIGH);
 
@@ -61,15 +61,15 @@ delay(1000);
 
 digitalWrite(led1, HIGH);
 
-delay(250);
+delay(100);
 
 digitalWrite(led1, HIGH);
 
-delay(250);
+delay(100);
 
 digitalWrite(led1, HIGH);
 
-delay(250);
+delay(100);
 
 digitalWrite(led1, HIGH);
 
@@ -83,11 +83,11 @@ delay(1000);
 
 digitalWrite(led1, HIGH);
 
-delay(250);
+delay(100);
 
 digitalWrite(led1, HIGH);
 
-delay(250);
+delay(100);
 
 digitalWrite(led1, LOW);
 
@@ -97,15 +97,15 @@ delay(1000);
 
 digitalWrite(led1, HIGH);
 
-delay(250);
+delay(100);
 
 digitalWrite(led1, HIGH);
 
-delay(250);
+delay(100);
 
 digitalWrite(led1, HIGH);
 
-delay(250);
+delay(100);
 
 digitalWrite(led1, LOW);
 
